@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# User data — never commit database, voice samples, or generated audio
+codebase/backend/data/
+
+# Node / frontend
+codebase/frontend/source/node_modules/
+codebase/frontend/source/dist/
+codebase/frontend/source/.vite/
+codebase/frontend/source/bun.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
